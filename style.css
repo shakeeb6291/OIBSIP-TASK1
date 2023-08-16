@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+body{
+    background-color: black;
+}
+*{
+    margin:0px;
+    padding:0px;    
+    box-sizing: border-box;    
+    font-family: 'Roboto', sans-serif;
+} 
+    
+section{
+    min-height: 100vh;
+    background-image: url("./image/meeting-150378057-100264708.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    width:85%;
+    margin:auto;
+}
+
+nav{
+height: 80px;
+}
+
+nav h1{
+    float: left;
+    Line-height: 80px;
+    font-size: 40px;
+    font-size: inline;
+    color:#eb7620;
+}
+
+nav ul{
+    float: right;
+    Line-height: 85px;
+}
+
+nav ul li{ 
+    display: inline-block; 
+    list-style: none;
+    padding : 0px 5px;
+}
+
+nav ul li a{
+
+    color:#fff;
+    text-decoration: none;
+    border-radius: 5px;
+    padding:7px 8px;
+    text-transform: uppercase;
+}
+    
+nav ul li a:hover{
+    background-color: #eb7620; 
+    transition: 0.5s ease;
+}
+
+nav un li .active{
+    background-color: black;
+}
+
+.article{
+    width: 50%;
+    margin:auto;
+    transform: translateY(25vh);
+    text-align: center;
+}
+        
+.article h1{
+    font-size: 36px;
+    color:#fff;
+    Letter-spacing: 1.5px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+     
+.article p{
+    font-size: 18px;
+    color:greenyellow;
+    Line-height: 1.5;
+    margin-bottom: 50px;
+}
+
+.article .btn{
+    color:#fff;
+    padding:12px 25px;
+    Letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: blue;
+}
+            
+.article .btn:hover{
+    background-color: #4399fa; 
+    transition: 0.5s ease;
+} 
